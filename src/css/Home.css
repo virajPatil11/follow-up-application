@@ -1,0 +1,25 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #00ff66; /* Change the background color as needed */
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .app-title {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .current-date {
+    font-size: 16px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
