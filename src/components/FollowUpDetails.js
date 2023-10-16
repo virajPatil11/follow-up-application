@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/FollowUpDetails.css'; // Make sure to import your CSS file
+import '../css/FollowUpDetails.css';
 
 const FollowUpDetails = () => {
   const [followUps, setFollowUps] = useState([]);
@@ -153,4 +153,4 @@ const FollowUpDetails = () => {
   );
 };
 
-export default FollowUpDetails
+export default FollowUpDetails;
