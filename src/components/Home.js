@@ -1,5 +1,3 @@
-// Home.js
-
 import React from 'react';
 import '../css/Home.css';
 
@@ -11,11 +9,22 @@ const Home = () => {
         <p className="current-date">Today's Date: {new Date().toLocaleDateString()}</p>
       </header>
       <div className="content">
-        <h2>Welcome to the Home Page</h2>
+        <h2>Welcome to the Follow-Up Application</h2>
         <p>
-          This is the home page of your application. You can add some introductory content and features specific to your app here.
+          Manage your tasks, appointments, and important events with ease. Never miss a deadline again with our intuitive Follow-Up Application.
         </p>
-        {/* Add your application's main content and features */}
+        <p>
+          Key Features:
+        </p>
+        <ul>
+          <li>Task and appointment tracking</li>
+          <li>Reminders and notifications</li>
+          <li>User-friendly interface</li>
+          <li>Customizable settings</li>
+        </ul>
+        <p>
+          Get started now and stay organized! Explore the application by using the navigation links above.
+        </p>
       </div>
     </div>
   );

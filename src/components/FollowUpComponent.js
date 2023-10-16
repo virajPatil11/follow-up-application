@@ -12,12 +12,21 @@ const FollowUpComponent = () => {
   });
 
   return (
-    <div>
+    <div style={topCenterStyle}>
       <h2>Follow-Up</h2>
       <p>Current Date: {formattedDate}</p>
       {/* Other follow-up details */}
     </div>
   );
+};
+
+const topCenterStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: '10px',
+  height: '20vh', // Center in the top half of the viewport
 };
 
 export default FollowUpComponent;

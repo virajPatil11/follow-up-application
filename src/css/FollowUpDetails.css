@@ -1,0 +1,37 @@
+/* FollowUpDetails.css */
+
+/* Center the form elements */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  text-align: center;
+}
+
+/* Shorten the buttons */
+button {
+  padding: 5px 10px; /* Adjust the padding to make the button smaller */
+  margin: 5px;
+}
+
+/* Display input fields on separate lines */
+input[type="datetime-local"],
+input[type="text"] {
+  width: 100%;
+  max-width: 200px;
+  padding: 8px;
+  margin: 5px 0; /* Separate the input fields */
+}
+
+/* Container for the list of follow-ups with a fixed height and vertical scrolling */
+.follow-ups-container {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+/* Style for each follow-up item */
+.follow-up-item {
+  margin: 10px;
+}
